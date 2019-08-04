@@ -195,13 +195,9 @@
     <ClInclude Include="..\zipc.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="mxml1.vcxproj">
       <Project>{e5aa9476-9751-4654-8109-b1a2112d5e73}</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
-
 </Project>
