@@ -25,16 +25,8 @@
 #endif /* !_WIN32 */
 
 #ifdef _WIN32
-#define strdup _strdup
-#endif /* !_WIN32 */
-
-#define R_OK    04       /* Test for read permission.  */    /* read-only (for access()) */
-#define W_OK    02       /* Test for write permission.  */
-#define F_OK    00       /* Test for existence.  */
-
-#define STDIN_FILENO 0
-#define STDOUT_FILENO 1
-#define STDERR_FILENO 2
+#  include "unistd.h"
+#endif /* _WIN32 */
 
 /*
  * Debug macros...
